@@ -1,0 +1,183 @@
+<!doctype html>
+<html>
+<head>
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js"></script>
+<script type="text/javascript" src="jquery.magnifier.js">
+</script>       
+
+	<script type="text/javascript" src="textsizer.js">
+</script>
+
+	<script type="text/javascript">
+alert("Please review my Achivements Page");
+</script>
+<meta charset="utf-8">
+<title>practice 2</title>
+<link href="style 2222.css" rel="stylesheet" type="text/css">
+<style type="text/css">
+#CONTAINER {
+    background-color:  #CCB1E8;
+    margin-bottom: 0px;
+	 margin-left: 400px;
+	 margin-right: 0px;
+	 margin-top: 0px;
+    float: left;
+    height: 700px;
+    width: 905px;
+}
+#speech {
+    background-color: #AF6EA7;
+    float: left;
+    height: 505px;
+    width: 300px;
+    margin-top: 25px;
+    margin-right: 20px;
+    margin-bottom: 0px;
+    margin-left: 20px;
+	Border: 2px solid #0E7B98;
+}
+	#image {
+    background-color: #AF6EA7;
+    float: left;
+    height: 225px;
+    width: 500px;
+    margin-top: 25px;
+    margin-right: 20px;
+    margin-bottom: 30px;
+    margin-left: 20px;
+		Border: 2px solid #0E7B98;
+}
+	#image3 {
+    background-color: #AF6EA7;
+    float: left;
+    height: 50px;
+    width: 500px;
+    margin-top: -10px;
+    margin-right: 20px;
+    margin-bottom: 0px;
+    margin-left: 20px;
+    Border: 2px solid #0E7B98;
+    color: #FFFBFB;
+    font-size: 18px;
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+    text-align: center;
+    font-style: italic;
+    text-decoration: underline;
+}
+	#image2 {
+    background-color: #AF6EA7;
+    float: left;
+    height: 175px;
+    width: 500px;
+    margin-top: -180px;
+    margin-right: 20px;
+    margin-bottom: 0px;
+    margin-left: 365px;
+		Border: 2px solid #0E7B98;
+}
+		#footer {
+    background-color: #AF6EA7;
+    float: left;
+    height: 55px;
+    width: 905px;
+    margin-top: 50px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+    font-size: 18px;
+    color: #FDF4F4;
+	Border: 2px solid #0E7B98;
+}
+#home {
+    background-color: #AF6EA7;
+    margin-bottom: 20px;
+    margin-top: 40px;
+    margin-left: 20px;
+    margin-right: -120px;
+    float: left;
+    height: 50px;
+    width: 860px;
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+    font-size: 18px;
+    color: white;
+    text-align: center;
+	Border: 2px solid #0E7B98;
+}
+#navigaton a img {
+    margin: 10px;
+}
+	++
+</style>
+</head>
+
+<body  onLoad="show5()">
+	<span id="liveclock" style="position:absolute;left:0;top:0;">
+</span>
+
+<script language="JavaScript">
+/*
+Upper Left Corner Live Clock Script- (c) Dynamic Drive (www.dynamicdrive.com)
+For full source code, 100's more DHTML scripts, and TOS,
+visit http://www.dynamicdrive.com
+*/
+function show5(){
+ if (!document.layers&&!document.all&&!document.getElementById)
+ return
+ var Digital=new Date()
+ var hours=Digital.getHours()
+ var minutes=Digital.getMinutes()
+ var seconds=Digital.getSeconds()
+ var dn="AM" 
+ if (hours>12){
+ dn="PM"
+ hours=hours-12
+ }
+ if (hours==0)
+ hours=12
+ if (minutes<=9)
+ minutes="0"+minutes
+ if (seconds<=9)
+ seconds="0"+seconds
+//change font size here to your desire
+myclock="<font size='5' face='Arial' ><b><font size='1'>Current Time:</font></br>"+hours+":"+minutes+":"
+ +seconds+" "+dn+"</b></font>"
+if (document.layers){
+document.layers.liveclock.document.write(myclock)
+document.layers.liveclock.document.close()
+}
+else if (document.all)
+liveclock.innerHTML=myclock
+else if (document.getElementById)
+document.getElementById("liveclock").innerHTML=myclock
+setTimeout("show5()",1000)
+ }
+</script>
+	
+<div id="navigaton">
+<a href="Home.html.html"><img src="../../../Downloads/button_home.png" alt="" width="130" height="50" align="middle"/></a><a href="Mystory.html.html"><img src="../../../Downloads/button_my-story.png" alt="" width="130" height="50" align="middle"/></a><a href="Education.html.html"><img src="../../../Downloads/button_education (2).png" alt="" width="130" height="50" align="middle"/></a><a href="achivement.html.html"><img src="../../../Downloads/button_achievements.png" alt="" width="130" height="50" align="middle"/></a><a href="Skills.html.html"><img src="../../../Downloads/button_skills.png" alt="" width="130" height="50" align="middle"/></a><a href="contacts.html.html"><img src="../../../Downloads/button_contacts (1).png" alt="" width="130" height="50" align="middle"/></a> </div>
+
+<div id="banner">  
+	<img src="Purple Minimalist Brush Personal LinkedIn Banner.gif" width="905" height="100" alt=""/> </div>
+<div id="CONTAINER">
+  <div id="home">
+    <p>Acheivements&nbsp;</p>
+    <p>&nbsp; <a href="javascript:ts('body',1)">+ Larger Font</a> | <a href="javascript:ts('body',-1)">+ Smaller Font</a> </p>
+
+	</div>
+  <div id="speech" style="font-family: 'Gill Sans', 'Gill Sans MT', 'Myriad Pro', 'DejaVu Sans Condensed', Helvetica, Arial, sans-serif; font-size: 18px; color: #F9F8F8;">
+    <p> &nbsp;Right now in class my effortis rated outsatnading witch is the highest effort you can get .</p>
+    <p>Iam currentley at a merit which is above a pass.</p>
+<p>Im secondary school i passsed 7 GCSEs</p>
+    <p>Including maths science and english all above grade 4</p>
+    <p>Another acheuvement i have is my teamworkk and communication skilss&nbsp;</p>
+  </div>
+  <div id="image"><img src="Achievements.webp" alt="  class="magnify" width="500" height="225"/></div>
+	 <div id="image3">Acheivements i need to qualify fora job as web developer</div>
+  <div id="image2"><iframe width="500" height="175" src="https://www.youtube.com/embed/gQRsgFw7tcg?si=8MavlmhBtQ5xz-r0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>
+  <div id="footer"> <img src="twitter-icon-circle-black-logo-35827D553B-seeklogo.com.png" width="50" height="50" alt=""/> <img src="174870.png" width="50" height="50" alt=""/> <img src="1597747.png" width="50" height="50" alt=""/>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Naswa Roble&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Naswaroble6@gmail.com </div>
+</div>
+	
+	
+</body>
+</html>
